@@ -1,0 +1,96 @@
+     /*---------------------
+	Responsive 
+-----------------------*/
+     
+     @media only screen and (max-width: 1650px) {
+         .sp-pad {
+             padding-left: 90px;
+             padding-right: 90px;
+         }
+     }
+     
+     @media only screen and (max-width: 1510px) {
+         .sp-pad {
+             padding-left: 30px;
+             padding-right: 30px;
+         }
+         .spad {
+             padding-left: 30px;
+             padding-right: 30px;
+         }
+     }
+     
+     @media only screen and (max-width: 1100px) {
+         .header__search {
+             display: none;
+         }
+         .header__nav {
+             display: none;
+             float: none;
+             position: absolute;
+             width: 100%;
+             background: #222;
+             left: 0;
+             top: 100%;
+             ul {
+                 display: block;
+                 li {
+                     display: block;
+                     border-bottom: 1px solid #292929;
+                     text-align: center;
+                     a {
+                         padding: 15px;
+                         &:hover {
+                             background-color: rgba(143, 135, 135, 0.247);
+                         }
+                     }
+                 }
+             }
+         }
+         .header__nav-mini {
+             position: absolute;
+             font-size: 30px;
+             color: #fff;
+             top: 38px;
+             right: 4%;
+             display: block;
+             float: right;
+         }
+         .hero__title {
+             font-size: 60px;
+         }
+         .album__single {
+             display: block;
+             width: 50%;
+         }
+         .sm-wide {
+             display: none;
+         }
+     }
+     
+     @media only screen and (max-width: 767px) {
+         .hero__title {
+             font-size: 50px;
+             left: 30px;
+         }
+         .hero__desc {
+             font-size: 30px;
+             left: 30px;
+         }
+         .owl-nav {
+             right: 20px;
+         }
+         .album__single {
+             display: block;
+             width: 100%;
+         }
+         .sm-wide {
+             display: none;
+         }
+         .review {
+             display: none;
+         }
+     }
+     /* small Mobile :320px. */
+     
+     @media only screen and (max-width: 579px) {}

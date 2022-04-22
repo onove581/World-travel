@@ -1,0 +1,72 @@
+  .story {
+      background-color: #d8e3f7;
+      padding-top: 60px;
+      padding-bottom: 60px;
+      &__title {
+          h3 {
+              color: #444444;
+              font-family: Parisienne;
+              font-size: 45px;
+              line-height: 1;
+              text-align: center;
+          }
+      }
+      &__content {
+          width: 100%;
+          margin-top: 50px;
+          .new {
+              width: 100%;
+              padding: 20px;
+              &__img {
+                  width: 100%;
+                  height: 100%;
+                  overflow: hidden;
+                  background-position: center;
+              }
+              &__info {
+                  background-color: cornsilk;
+                  text-align: center;
+                  width: 100%;
+                  height: 100%;
+                  display: block;
+                  padding-top: 30px;
+                  &-title {
+                      color: #444444;
+                      font-family: Parisienne;
+                      font-size: 24px;
+                      font-weight: 700;
+                      padding: 20px;
+                  }
+                  &-content {
+                      font-size: 14px;
+                      line-height: 1.2;
+                      font-weight: 600;
+                      text-transform: uppercase;
+                      letter-spacing: 1px;
+                      padding-bottom: 20px;
+                      padding-left: 15px;
+                      padding-right: 15px;
+                      color: #444444;
+                      &:hover {
+                          color: rgb(136, 138, 243);
+                      }
+                  }
+                  &-read {
+                      color: #444444;
+                      padding: 15px;
+                      font-size: 11px;
+                      text-transform: uppercase;
+                      letter-spacing: 1px;
+                  }
+              }
+          }
+      }
+  }
+  
+  .review {
+      width: 100%;
+      &__anh {
+          width: 50%;
+          height: 130px;
+      }
+  }

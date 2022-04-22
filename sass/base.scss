@@ -1,0 +1,155 @@
+/* =================================
+------------------------------------
+  HALO - Photography Portfolio
+  Version: 1.0
+ ------------------------------------ 
+ ====================================*/
+
+
+/*----------------------------------------*/
+
+
+/* Template default CSS
+/*----------------------------------------*/
+
+html,
+body {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #222121;
+    margin: 0;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 14.2px;
+    color: #868686;
+    line-height: 2.2;
+}
+
+img {
+    max-width: 100%;
+}
+
+input:focus,
+select:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+}
+
+
+/*---------------------
+	Helper CSS
+-----------------------*/
+
+.spad {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.sp-pad {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.sp-sub-title {
+    color: #868686;
+    font-size: 12px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.sp-title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+    letter-spacing: 6px;
+}
+
+.section-title h2 {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 110px;
+    padding-bottom: 2px;
+    line-height: normal;
+}
+
+.section-title h2:after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    left: 0;
+    bottom: 0;
+    background: #40424a;
+}
+
+.set-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+}
+
+
+/*------------------------
+  Common Elements
+--------------------------*/
+
+.element {
+    margin-bottom: 150px;
+}
+
+.element .sp-title {
+    margin-bottom: 70px;
+}
+
+.element:last-child {
+    margin-bottom: 0;
+}
+
+.element .site-btn {
+    margin-bottom: 10px;
+}

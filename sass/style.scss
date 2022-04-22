@@ -1,0 +1,26 @@
+    @import "base";
+    @import "variable";
+    @import "header";
+    @import "hero";
+    @import "into";
+    @import "cata";
+    @import "album";
+    @import "news";
+    @import "footer";
+    #scrollToTop {
+        font-size: 80px;
+        position: fixed;
+        bottom: 50px;
+        right: 40px;
+        z-index: 7;
+    }
+    
+    #scrollToTop:hover {
+        color: dimgray;
+    }
+    
+    ///animate 
+    /*These styles contain basic styles for fomatting along with our animation css*/
+    /*animation element*/
+    
+    @import "responsive";
